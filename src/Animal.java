@@ -56,6 +56,7 @@ public class Animal {
         System.out.println(animal.nombre + " ha muerto");
         totalAnimales--;
     }
+    
     public String toString() {
         return "Me llamo " + nombre + " y peso " + peso;
     }
